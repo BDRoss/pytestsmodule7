@@ -5,9 +5,9 @@ import Staff
 import os
 
 
-#Tests if the program can handle a student submitting an assignment
+#Tests if the program can handle a non-existant student submitting an assignment
 def test_submit(grading_system):
-    name = 'akend3'
+    name = 'janedoe'
     password = '123454321'
     course = 'databases'
     assignment = 'assignment1'
